@@ -6,7 +6,7 @@
     <title>Boda Yoseli & Bryan</title>
     
     <!-- =================================================================== -->
-    <!-- CONFIGURACIÓN DE VISTA PREVIA PARA WHATSAPP Y REDES SOCIALES       -->
+    <!-- CONFIGURACIÓN DE VISTA PREVIA GRANDE (WHATSAPP, FACEBOOK, TWITTER) -->
     <!-- =================================================================== -->
     <meta property="og:title" content="Yoseli & Bryan - Nuestra Boda">
     <meta property="og:description" content="Nos encantaría que nos acompañes este día tan especial. Abre el enlace para ver la invitación completa por favor confirmar asistencia.">
@@ -16,7 +16,11 @@
     <meta property="og:image:height" content="630">
     <meta property="og:url" content="https://jeffkillah1510.github.io/boda-Bryan-y-Yoseli/">
     <meta property="og:type" content="website">
-    <!-- =================================================================== -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yoseli & Bryan - Nuestra Boda">
+    <meta name="twitter:description" content="Nos encantaría que nos acompañes este día tan especial. Abre el enlace para ver la invitación completa por favor confirmar asistencia.">
+    <meta name="twitter:image" content="https://jeffkillah1510.github.io/boda-Bryan-y-Yoseli/foto_portada.jpg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,7 +53,7 @@
         .ampersand {
             font-family: 'Parisienne', cursive;
             font-size: 3.8rem;
-            color: #D4AF37; 
+            color: #c5ab85; 
             display: inline-block;
             margin: 0 4px;
             vertical-align: middle;
@@ -63,7 +67,6 @@
         .container { max-width: 450px; margin: 0 auto; background-color: #ffffff; min-height: 100vh; padding-bottom: 80px; position: relative; }
         section { padding: 45px 25px; position: relative; }
         
-        /* Portada */
         .hero {
             position: relative; height: 480px; display: flex; flex-direction: column;
             justify-content: flex-end; padding-bottom: 50px;
@@ -79,14 +82,12 @@
         .hero .names-cursive { color: #f5f2eb; font-size: 3.8rem; }
         .hero .ampersand { color: #f5f2eb; font-size: 4.2rem; }
 
-        /* Contenedor Cuenta Regresiva */
         .countdown-section { background-color: #ffffff; padding: 35px 25px 25px 25px; }
         .countdown { display: flex; justify-content: center; gap: 10px; margin-top: 25px; }
         .time-block { background: #faf8f5; border: 1px solid #e3ded4; padding: 12px 5px; border-radius: 8px; min-width: 75px; }
         .time-block span { display: block; font-size: 1.5rem; font-weight: 600; color: #1a1a1a; }
         .time-block label { font-size: 0.65rem; text-transform: uppercase; color: #777; letter-spacing: 1px; }
 
-        /* Máquina de escribir */
         .typing-wrapper {
             display: flex;
             justify-content: center;
@@ -96,7 +97,7 @@
         .typing-container {
             font-size: 1.05rem;
             font-weight: 500;
-            color: #D4AF37; 
+            color: #c5ab85; 
             letter-spacing: 2px;
             text-transform: uppercase;
             white-space: nowrap;
@@ -114,7 +115,6 @@
             to { width: 100%; }
         }
 
-        /* Botón Calendario */
         .calendar-wrapper {
             display: flex;
             justify-content: center;
@@ -128,9 +128,9 @@
             justify-content: center;
             gap: 8px;
             padding: 12px 20px;
-            border: 1px solid #D4AF37;
+            border: 1px solid #c5ab85;
             background-color: transparent;
-            color: #D4AF37;
+            color: #c5ab85;
             font-size: 0.75rem;
             text-transform: uppercase;
             letter-spacing: 2px;
@@ -144,11 +144,10 @@
         }
         
         .btn-calendar:hover {
-            background-color: #D4AF37;
+            background-color: #c5ab85;
             color: #ffffff;
         }
 
-        /* Modales */
         .modal-overlay {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
@@ -196,10 +195,9 @@
         .rsvp-buttons-container { display: flex; gap: 12px; justify-content: center; }
 
         .btn-modal-rsvp { padding: 12px 25px; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; border-radius: 4px; cursor: pointer; flex: 1; }
-        .btn-modal-yes { background-color: #D4AF37; color: #ffffff; border: 1px solid #D4AF37; }
+        .btn-modal-yes { background-color: #c5ab85; color: #ffffff; border: 1px solid #c5ab85; }
         .btn-modal-no { background-color: #f0f0f0; color: #555555; border: 1px solid #e2e2e2; }
 
-        /* Contenedor de fotos adaptadas */
         .single-photo-section { background-color: #f5f2eb; padding: 35px 15px; text-align: center; }
         .single-photo-item { 
             width: 100%; 
@@ -213,10 +211,9 @@
             margin: 0 auto;
         }
 
-        /* PASE DE ACCESO - REDISEÑO OSCURO PREMIUM */
         .pase-negro-container {
             background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 100%);
-            border: 2px solid #D4AF37;
+            border: 2px solid #c5ab85;
             border-radius: 16px;
             padding: 45px 24px 40px 24px;
             margin: 25px 15px 10px 15px;
@@ -226,42 +223,39 @@
         }
         .pase-negro-container::before {
             content: ''; position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px;
-            border: 1px solid rgba(212, 175, 55, 0.25); border-radius: 10px; pointer-events: none;
+            border: 1px solid rgba(197, 171, 133, 0.25); border-radius: 10px; pointer-events: none;
         }
         .pase-titulo-oro { 
             font-size: 1.5rem; 
             letter-spacing: 5px; 
-            background: linear-gradient(135deg, #fce0ad 0%, #D4AF37 50%, #b38f24 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #c5ab85;
             text-transform: uppercase; 
             margin-bottom: 4px; 
             font-weight: 600;
         }
-        .pase-subtitulo { font-size: 0.75rem; color: #8c8c8c; text-transform: uppercase; letter-spacing: 2.5px; margin-bottom: 32px; }
+        .pase-subtitulo { font-size: 0.75rem; color: #a3a3a3; text-transform: uppercase; letter-spacing: 2.5px; margin-bottom: 32px; }
         
         .pase-nombre-cursiva {
             font-family: 'Alex Brush', cursive; 
-            font-size: 3.2rem; 
-            background: linear-gradient(135deg, #ffeaa7 0%, #D4AF37 50%, #aa8214 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            font-size: 2.6rem; 
+            color: #c5ab85;
             font-weight: 400; 
-            line-height: 1.2; 
+            line-height: 1.25; 
             margin: 10px 0 25px 0;
         }
+
         .pase-info-grid {
             display: grid; 
             grid-template-columns: 1fr 1fr; 
-            border: 1px solid rgba(212, 175, 55, 0.25); 
+            border: 1px solid rgba(197, 171, 133, 0.25); 
             background: rgba(0, 0, 0, 0.4); 
             border-radius: 12px; 
             padding: 18px; 
             margin-top: 25px; 
             margin-bottom: 32px;
         }
-        .pase-info-block:first-child { border-right: 1px solid rgba(212, 175, 55, 0.15); }
-        .pase-info-label { font-size: 0.65rem; text-transform: uppercase; color: #888888; letter-spacing: 1.5px; }
+        .pase-info-block:first-child { border-right: 1px solid rgba(197, 171, 133, 0.15); }
+        .pase-info-label { font-size: 0.65rem; text-transform: uppercase; color: #c5ab85; letter-spacing: 1.5px; }
         .pase-info-value { font-size: 1.25rem; font-weight: 500; color: #ffffff; margin-top: 6px; }
 
         .btn-confirmar-oro {
@@ -269,7 +263,7 @@
             width: 100%; 
             max-width: 290px; 
             padding: 16px 20px; 
-            background: linear-gradient(135deg, #fcd890 0%, #D4AF37 50%, #b38b1f 100%);
+            background: #c5ab85;
             color: #000000; 
             border: none;
             font-size: 0.8rem; 
@@ -278,14 +272,14 @@
             letter-spacing: 2px; 
             cursor: pointer;
             border-radius: 25px;
-            box-shadow: 0 4px 18px rgba(212, 175, 55, 0.35); 
+            box-shadow: 0 4px 18px rgba(197, 171, 133, 0.35); 
             transition: all 0.3s ease; 
             margin-top: 5px;
         }
         
         .btn-confirmar-oro:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 22px rgba(212, 175, 55, 0.5);
+            box-shadow: 0 6px 22px rgba(197, 171, 133, 0.5);
         }
         
         .msg-asistencia-confirmada {
@@ -300,29 +294,26 @@
 
         .pase-rsvp-footer-text {
             background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 100%);
-            border: 2px solid #D4AF37; border-radius: 12px; padding: 35px 24px; margin: 15px 15px 40px 15px;
+            border: 2px solid #c5ab85; border-radius: 12px; padding: 35px 24px; margin: 15px 15px 40px 15px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.4); color: #ffffff; position: relative;
         }
         .pase-rsvp-footer-text::before {
             content: ''; position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px;
-            border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 8px; pointer-events: none;
+            border: 1px solid rgba(197, 171, 133, 0.2); border-radius: 8px; pointer-events: none;
         }
         .pase-rsvp-footer-text h4 { 
             font-size: 1.3rem; 
             letter-spacing: 5px; 
-            background: linear-gradient(135deg, #fce0ad 0%, #D4AF37 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #c5ab85;
             margin-bottom: 4px; 
             text-transform: uppercase; 
             font-weight: 600; 
         }
-        .pase-rsvp-footer-text .sub { font-size: 0.7rem; color: #ffffff; letter-spacing: 2px; text-transform: uppercase; font-weight: 500; margin-bottom: 20px; display: block; opacity: 0.85; }
+        .pase-rsvp-footer-text .sub { font-size: 0.7rem; color: #c5ab85; letter-spacing: 2px; text-transform: uppercase; font-weight: 500; margin-bottom: 20px; display: block; opacity: 0.85; }
         .pase-rsvp-footer-text p { font-size: 0.8rem; color: #e0e0e0; line-height: 1.7; letter-spacing: 0.5px; padding: 0 5px; }
 
         .section-title { font-size: 1.2rem; letter-spacing: 4px; color: #1a1a1a; margin-bottom: 35px; text-transform: uppercase; font-weight: 400; }
 
-        /* Cronograma */
         .cronograma-section { background-color: #ffffff; padding: 50px 20px; }
         .new-timeline { max-width: 400px; margin: 0 auto; display: flex; flex-direction: column; }
         .new-timeline-item { display: flex; align-items: center; justify-content: space-between; padding: 20px 5px; border-bottom: 1.5px solid #3b3b5c; text-align: left; }
@@ -332,13 +323,11 @@
         .new-icon { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
         .new-icon img { width: 100%; height: 100%; object-fit: contain; }
 
-        /* Elimina el cuadro blanco al invertir el color */
         .invert-icon { 
             filter: invert(1); 
             mix-blend-mode: multiply; 
         }
 
-        /* Código de Vestimenta */
         .vestimenta-section {
             background-color: #fcfbfa;
             background-image: radial-gradient(rgba(0,0,0,0.03) 1px, transparent 0), radial-gradient(rgba(0,0,0,0.02) 1px, transparent 0);
@@ -354,7 +343,6 @@
         .v-restriction { font-size: 0.8rem; color: #666666; display: block; margin-top: 3px; padding: 0 15px; }
         .v-harmony-msg { font-size: 0.8rem; font-style: italic; color: #888888; margin-top: 40px; max-width: 320px; margin-left: auto; margin-right: auto; line-height: 1.5; letter-spacing: 0.5px; }
 
-        /* Mesa de Regalos */
         .regalos-section { background-color: #fbf9f5; padding: 60px 25px; border-bottom: 1px solid #e0dbd1; }
         .r-title-cursive { font-family: 'Alex Brush', cursive; font-size: 3.5rem; color: #1a1a1a; font-weight: 400; line-height: 1; }
         .r-title-sub { font-family: 'Montserrat', sans-serif; font-size: 0.95rem; letter-spacing: 5px; text-transform: uppercase; color: #2c2c2c; margin-top: 5px; margin-bottom: 30px; font-weight: 400; }
@@ -362,7 +350,6 @@
         .r-icon-container img { width: 65px; height: auto; display: inline-block; mix-blend-mode: multiply; }
         .r-text { font-size: 0.85rem; color: #444444; line-height: 1.8; max-width: 340px; margin: 0 auto; letter-spacing: 0.5px; }
 
-        /* Secciones Oscuras */
         .dark-section { background-color: #000000; color: #ffffff; padding: 50px 30px; }
         .dark-section .section-title { color: #ffffff; font-size: 1.4rem; }
         .dark-section p { font-size: 0.85rem; color: #e0e0e0; letter-spacing: 1px; line-height: 1.8; margin-bottom: 15px; }
@@ -454,20 +441,20 @@
 
         <!-- PASE DE ACCESO -->
         <div class="pase-negro-container">
-            <h3 class="pase-titulo-oro">Pase de Acceso</h3>
-            <p class="pase-subtitulo">Exclusive Invitation</p>
+            <h3 class="pase-titulo-oro">PASE DE ACCESO</h3>
+            <p class="pase-subtitulo">PASE PERSONAL PARA EL EVENTO</p>
             
-            <div style="font-size: 0.65rem; text-transform: uppercase; color: #888888; letter-spacing: 1.5px; margin-bottom: 2px;">Titular del pase:</div>
-            <div id="pase-nombres" class="pase-nombre-cursiva">Cargando...</div>
+            <div style="font-size: 0.65rem; text-transform: uppercase; color: #c5ab85; letter-spacing: 1.5px; margin-bottom: 2px;">INVITADO(S):</div>
+            <div id="pase-nombres" class="pase-nombre-cursiva">Alex y Yuri</div>
 
             <div class="pase-info-grid">
                 <div class="pase-info-block">
                     <div class="pase-info-label">Mesa</div>
-                    <div id="pase-mesa" class="pase-info-value">--</div>
+                    <div id="pase-mesa" class="pase-info-value">10</div>
                 </div>
                 <div class="pase-info-block">
                     <div class="pase-info-label">Cupos</div>
-                    <div id="pase-boletos" class="pase-info-value">--</div>
+                    <div id="pase-boletos" class="pase-info-value">2 pases</div>
                 </div>
             </div>
 
@@ -592,7 +579,7 @@
 
         <section class="dark-section">
             <h3 class="section-title">DÍA DEL EVENTO</h3>
-            <p style="color: #D4AF37; font-weight: 600; letter-spacing: 2px;">28 DE AGOSTO DE 2026 | 7:00 PM</p>
+            <p style="color: #c5ab85; font-weight: 600; letter-spacing: 2px;">28 DE AGOSTO DE 2026 | 7:00 PM</p>
             <p style="margin-top: 15px;"><strong>LUGAR DEL EVENTO:</strong><br>JARDÍN Y TERRAZA PUERTA AL PARAÍSO</p>
             <p><strong>DIRECCIÓN:</strong><br>C. ESPAÑA 8451, JUÁREZ, 22040 TIJUANA, B.C.</p>
             <a href="http://maps.google.com/?q=Jardin+y+Terraza+Puerta+al+Paraiso+Tijuana" target="_blank" class="btn-action">Ver ubicación en mapa</a>
@@ -620,121 +607,117 @@
         let enviandoFormulario = false;
         let opcionSeleccionada = "";
 
-        const heroBg = document.getElementById('hero-bg');
-        const imgPortada = new Image();
-        imgPortada.src = 'foto_portada.jpg';
-        imgPortada.onerror = function() {
-            imgPortada.src = 'foto_portada.jpeg';
-            imgPortada.onerror = function() {
-                imgPortada.src = 'foto_portada.png';
-                heroBg.style.backgroundImage = "url('foto_portada.png')";
-            };
-            heroBg.style.backgroundImage = "url('foto_portada.jpeg')";
-        };
-
-        const urlParams = new URLSearchParams(window.location.search);
-        const nombresInvitados = urlParams.get('invitados') || 'Invitado Especial';
-        const mesaAsignada = urlParams.get('mesa') || 'Por asignar';
-        const totalPases = urlParams.get('pases') || '1';
-
-        document.getElementById('pase-nombres').innerText = nombresInvitados;
-        document.getElementById('pase-mesa').innerText = mesaAsignada;
-        document.getElementById('pase-boletos').innerText = totalPases === '1' ? '1 pase' : `${totalPases} pases`;
-
-        const storageKey = "boda_rsvp_" + nombresInvitados.replace(/\s+/g, '_');
-
-        function verificarAsistenciaPrevia() {
-            const respuestaGuardada = localStorage.getItem(storageKey);
-            const btnPrincipal = document.getElementById('btn-principal-rsvp');
-            
-            if (respuestaGuardada) {
-                btnPrincipal.style.display = 'none';
-                if (respuestaGuardada === 'Sí') {
-                    document.getElementById('msg-pase-exito').style.display = 'block';
-                } else if (respuestaGuardada === 'No') {
-                    document.getElementById('msg-pase-decline').style.display = 'block';
-                }
-            }
-        }
-
-        function openCalendarModal() { document.getElementById('calendarModalOverlay').classList.add('show'); }
-        function closeCalendarModal() { document.getElementById('calendarModalOverlay').classList.remove('show'); }
-        function openRsvpModal() { document.getElementById('rsvpModalOverlay').classList.add('show'); }
-        function closeRsvpModal() { document.getElementById('rsvpModalOverlay').classList.remove('show'); }
+        // Nombre(s) de invitado(s) tal como aparecen en el pase de acceso
+        const nombresInvitados = document.getElementById('pase-nombres').innerText;
 
         function startInvitation() {
-            document.getElementById('welcome-screen').style.opacity = '0';
+            const welcomeScreen = document.getElementById('welcome-screen');
+            welcomeScreen.style.opacity = '0';
             setTimeout(() => {
-                document.getElementById('welcome-screen').style.display = 'none';
-                document.getElementById('animated-date').classList.add('start-typing');
-                document.getElementById('music-player').style.display = 'flex';
-                music.play().catch(e => console.log("Auto-play bloqueado por el navegador"));
+                welcomeScreen.style.display = 'none';
             }, 1000);
-            verificarAsistenciaPrevia();
-            actualizarCuentaRegresiva();
-            setInterval(actualizarCuentaRegresiva, 1000);
+
+            if (music) {
+                music.play().catch(e => console.log("Audio play prevented:", e));
+                document.getElementById('music-player').style.display = 'flex';
+            }
+
+            const dateEl = document.getElementById('animated-date');
+            if (dateEl) dateEl.classList.add('start-typing');
         }
 
         function toggleMusic() {
-            if (music.paused) { music.play(); playPauseBtn.innerText = "❚❚"; }
-            else { music.pause(); playPauseBtn.innerText = "▶"; }
+            if (music.paused) {
+                music.play();
+                playPauseBtn.innerText = "❚❚";
+            } else {
+                music.pause();
+                playPauseBtn.innerText = "▶";
+            }
         }
 
         function actualizarCuentaRegresiva() {
-            const fechaBoda = new Date("August 28, 2026 19:00:00").getTime();
+            const fechaBoda = new Date("Aug 28, 2026 19:00:00").getTime();
             const ahora = new Date().getTime();
-            const diferencia_tiempo = fechaBoda - ahora;
+            const diferencia = fechaBoda - ahora;
 
-            if (diferencia_tiempo <= 0) { return; }
+            const daysEl = document.getElementById("days");
+            const hoursEl = document.getElementById("hours");
+            const minutesEl = document.getElementById("minutes");
+            const secondsEl = document.getElementById("seconds");
 
-            const d = Math.floor(diferencia_tiempo / (1000 * 60 * 60 * 24));
-            const h = Math.floor((diferencia_tiempo % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const m = Math.floor((diferencia_tiempo % (1000 * 60 * 60)) / (1000 * 60));
-            const s = Math.floor((diferencia_tiempo % (1000 * 60)) / 1000);
+            if (diferencia < 0) {
+                if (daysEl) daysEl.innerText = "00";
+                if (hoursEl) hoursEl.innerText = "00";
+                if (minutesEl) minutesEl.innerText = "00";
+                if (secondsEl) secondsEl.innerText = "00";
+                return;
+            }
 
-            document.getElementById('days').innerText = d < 10 ? '0' + d : d;
-            document.getElementById('hours').innerText = h < 10 ? '0' + h : h;
-            document.getElementById('minutes').innerText = m < 10 ? '0' + m : m;
-            document.getElementById('seconds').innerText = s < 10 ? '0' + s : s;
+            const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+            const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+            const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+            if (daysEl) daysEl.innerText = dias < 10 ? "0" + dias : dias;
+            if (hoursEl) hoursEl.innerText = horas < 10 ? "0" + horas : horas;
+            if (minutesEl) minutesEl.innerText = minutos < 10 ? "0" + minutos : minutos;
+            if (secondsEl) secondsEl.innerText = segundos < 10 ? "0" + segundos : segundos;
         }
 
+        actualizarCuentaRegresiva();
+        setInterval(actualizarCuentaRegresiva, 1000);
+
+        function openCalendarModal() {
+            document.getElementById('calendarModalOverlay').classList.add('show');
+        }
+        function closeCalendarModal() {
+            document.getElementById('calendarModalOverlay').classList.remove('show');
+        }
+        function openRsvpModal() {
+            document.getElementById('rsvpModalOverlay').classList.add('show');
+        }
+        function closeRsvpModal() {
+            document.getElementById('rsvpModalOverlay').classList.remove('show');
+        }
+
+        // --- ENVÍO DEL RSVP AL GOOGLE FORM (vía iframe oculto, mode: no-cors) ---
         function submitRSVP(respuesta) {
             if (enviandoFormulario) return;
             enviandoFormulario = true;
             opcionSeleccionada = respuesta;
 
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbygGclG8f_OaDscgO-0OFrM66v3qY7eE3w8jI_t7Z8/exec'; 
-            
+            const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSd3jgumlMK6OYpimRXbPRoMEQvgaEHPtZ4ecyzPqXI-8v0nfQ/formResponse';
             const datos = new FormData();
-            datos.append('invitados', nombresInvitados);
-            datos.append('asistencia', respuesta);
-            datos.append('mesa', mesaAsignada);
-            datos.append('pases', totalPases);
+            datos.append('entry.1725285104', nombresInvitados);
+            datos.append('entry.263288389', respuesta);
 
             document.getElementById('rsvp-modal-title').innerText = "Enviando...";
             document.getElementById('rsvp-status-text').innerText = "Por favor, espera un momento.";
             document.getElementById('rsvp-actions').style.display = 'none';
 
-            fetch(scriptURL, { method: 'POST', body: datos, mode: 'no-cors' })
+            fetch(formURL, { method: 'POST', body: datos, mode: 'no-cors' })
                 .then(() => { iframeCargado(); })
                 .catch(() => { iframeCargado(); });
         }
 
+        // Se ejecuta cuando el envío termina (ya sea por el fetch o por el onload del iframe oculto)
         function iframeCargado() {
-            if (!enviandoFormulario) return;
-            
-            localStorage.setItem(storageKey, opcionSeleccionada);
             closeRsvpModal();
 
-            const btnPrincipal = document.getElementById('btn-principal-rsvp');
-            btnPrincipal.style.display = 'none';
-
             if (opcionSeleccionada === 'Sí') {
+                document.getElementById('btn-principal-rsvp').style.display = 'none';
                 document.getElementById('msg-pase-exito').style.display = 'block';
-            } else {
-                document.getElementById('msg-pase-decline').style.display = 'block';
+            } else if (opcionSeleccionada === 'No') {
+                document.getElementById('btn-principal-rsvp').style.display = 'none';
+                const btnDecline = document.getElementById('msg-pase-decline');
+                btnDecline.style.display = 'block';
+                btnDecline.innerText = 'No Asistiré';
             }
-            enviandoFormulario = false;
+
+            document.getElementById('rsvp-modal-title').innerText = "¿Estás seguro en asistir a la boda?";
+            document.getElementById('rsvp-status-text').innerText = "Nos haría muy felices contar con tu presencia en este día tan especial.";
+            document.getElementById('rsvp-actions').style.display = 'flex';
         }
     </script>
 </body>
